@@ -1,0 +1,6 @@
+service : {
+  add: (float64) -> () oneway;
+  checkBalance: () -> (float64) query;
+  compound: () -> () oneway;
+  subtract: (float64) -> () oneway;
+}
